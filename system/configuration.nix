@@ -119,7 +119,7 @@
   # applications
   #########################
 
-  # Allow unfree packages
+  # Allow unfree packages and enable NUR repo
   nixpkgs = {
     config = {
       allowUnfree = true;
