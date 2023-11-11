@@ -22,7 +22,7 @@
     lib = nixpkgs.lib;
   in {
     nixosConfigurations = {
-      rapture = lib.nixosSystem {
+      default = lib.nixosSystem {
         inherit system;
 
         modules = [
